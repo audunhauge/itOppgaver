@@ -1,0 +1,52 @@
+@lang norwegian
+
+@oppgave :Oppgave 4.68
+
+side 193
+
+
+Funksjonen h gitt ved 
+@math
+h(x)=1.5x^0.8 
+
+viser at høyden til et tre er h(x) meter. 
+ 
+h(1) er høyden da det ble plantet,  
+h(2) viser høyden etter ett år, osv. 
+
+@format abc
+* Når oppnådde treet en høyde på 8 meter? 
+* Hvor mange prosent høyere blir treet i løpet av det femte året etter at det ble plantet? 
+
+
+## NB merk at det ikke står U bak oppgaven
+
+Derfor bruker jeg CAS
+
+
+### Finner tiden det tar for treet å bli 8 år
+
+@cas
+h(x):=1.5x^0.8::definerer funksjonen h
+solve(h(x)=8)::Nløs eller "x=" knappen i CAS
+
+### Finner vekstfaktoren for endringen fra x=5 til x=6
+
+@cas
+h(6)/h(5)::dette er vekstfaktor for endring fra 5 til 6
+
+
+
+
+
+@format abc
+* Når oppnådde treet en høyde på 8 meter?  
+  ### i starten av det 8. året x=8.1
+* Hvor mange prosent høyere blir treet i løpet av det femte  
+  ### En vekstfaktor på 1.15 tilsvarer 15% økning
+
+@svar a) Starten av år 8
+
+@svar b) ca 15%
+
+
