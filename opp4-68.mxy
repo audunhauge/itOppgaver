@@ -50,3 +50,7 @@ h(6)/h(5)::dette er vekstfaktor for endring fra 5 til 6
 @svar b) ca 15%
 
 
+
+Tegner grafen
+@plot
+1.5x^0.8,1,12,0,12
